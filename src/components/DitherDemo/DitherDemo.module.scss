@@ -1,0 +1,115 @@
+<details>
+<summary>Example SCSS</summary>
+/* src/components/DitherDemo/DitherDemo.module.scss */
+    .ditherContainer {
+        margin: 2rem 0;
+     text-align: center;
+     width: 100%;
+     height: auto;
+    }
+    .ditherCanvas {
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .ditherControls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0;
+    }
+
+    .ditherControls button {
+        background: #0af;
+        color: #fff;
+        border: none;
+        padding: 0.5rem 1rem;
+        margin: 0 0.5rem;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .ditherControls button:hover {
+        background: #0df;
+    }
+
+    .ditherControls button:active {
+        background: #08f;
+    }
+
+    .ditherControls button:disabled {
+        background: #666;
+        cursor: not-allowed;
+    }
+
+    .ditherControls button:disabled:hover {
+        background: #666;
+    }
+
+    .ditherControls button:disabled:active {
+        background: #666;
+    }
+
+    .ditherControls input[type="range"] {
+        width: 100%;
+        margin: 0 1rem;
+    }
+
+    .ditherControls input[type="range"]::-webkit-slider-thumb {
+        background: #0af;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        cursor: pointer;
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .ditherControls input[type="range"]::-webkit-slider-thumb:hover {
+        background: #0df;
+    }
+
+    .ditherControls input[type="range"]::-webkit-slider-thumb:active {
+        background: #08f;
+    }
+
+    .ditherControls input[type="range"]::-webkit-slider-thumb:disabled {
+        background: #666;
+        cursor: not-allowed;
+    }
+
+    .ditherControls input[type="range"]::-webkit-slider-thumb:disabled:hover {
+        background: #666;
+    }
+
+    .ditherControls input[type="range"]::-webkit-slider-thumb:disabled:active {
+        background: #666;
+    }
+
+    .ditherControls input[type="range"]::-webkit-slider-runnable-track {
+        background: #fff;
+        border-radius: 6px;
+    }
+
+    .ditherControls input[type="range"]::-webkit-slider-runnable-track:hover {
+        background: #eee;
+    }
+
+    .ditherControls input[type="range"]::-webkit-slider-runnable-track:active {
+        background: #ddd;
+    }
+
+    .ditherControls input[type="range"]::-webkit-slider-runnable-track:disabled {
+        background: #666;
+        cursor: not-allowed;
+    }
+
+    .ditherControls input[type="range"]::-webkit-slider-runnable-track:disabled:hover {
+        background: #666;
+    }
+
+    .ditherControls input[type="range"]::-webkit-slider-runnable-track:disabled:active {
+        background: #666;
+    }
+</details>

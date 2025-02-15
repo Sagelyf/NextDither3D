@@ -1,7 +1,6 @@
 Yes! Below is the NextDither3D project structure and detailed breakdown, formatted similarly to your Sagelyf 2.0 example. This structure includes all necessary files while keeping everything modern, efficient, and scalable.
 
-![
-](https://www.mermaidchart.com/raw/ce285e42-79dd-4455-8bdd-a21b381aac6b?theme=light&version=v0.1&format=svg)
+<img src="https://www.mermaidchart.com/raw/ce285e42-79dd-4455-8bdd-a21b381aac6b?theme=light&version=v0.1&format=svg" alt="NextDither3D Diagram" width="800"/>
 
 📝 Key Highlights
 1. 📂 src/core/shaders/DitherMaterial.ts

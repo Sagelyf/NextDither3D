@@ -39,6 +39,7 @@ npm run dev  # or yarn dev
 
 🖼️ React Three Fiber
 
+```
 import { Canvas } from "@react-three/fiber";
 import { useTexture } from "@react-three/drei";
 import { useMemo } from "react";
@@ -63,9 +64,11 @@ export default function App() {
     </Canvas>
   );
 }
+```
 
 🖼️ Plain Three.js
 
+```
 import * as THREE from 'three';
 import { DitherMaterial } from 'nextdither3d';
 
@@ -91,21 +94,24 @@ function animate() {
   renderer.render(scene, camera);
 }
 animate();
+```
 
 🛠️ Contributing
-	1.	Fork this repository
-	2.	Create a branch for your feature:
 
+1. Fork this repository
+2. Create a branch for your feature:
+
+```
 git checkout -b feature/my-new-feature
+```
+3. Commit & push your changes:
 
-
-	3.	Commit & push your changes:
-
+```
 git commit -m "Add new fade logic"
 git push origin feature/my-new-feature
+```
 
-
-	4.	Create a Pull Request 🎉
+4. Create a Pull Request 🎉
 
 📜 License
 
@@ -120,9 +126,9 @@ This project is MIT Licensed. It is inspired by Rune’s Dither3D, which is also
 
 
 📌 Final Thoughts
-	•	Supports both Three.js & React Three Fiber
-	•	Uses efficient cutout dithering for smooth LOD fades
-	•	Perfect for games, AR/VR, and stylized 3D visuals
-	•	Optimized for Next.js, WebGL, and TypeScript
+• Supports both Three.js & React Three Fiber
+• Uses efficient cutout dithering for smooth LOD fades
+• Perfect for games, AR/VR, and stylized 3D visuals
+• Optimized for Next.js, WebGL, and TypeScript
 
 🚀 Start using NextDither3D today! 🚀

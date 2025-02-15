@@ -1,56 +1,22 @@
 Yes! Below is the NextDither3D project structure and detailed breakdown, formatted similarly to your Sagelyf 2.0 example. This structure includes all necessary files while keeping everything modern, efficient, and scalable.
 
-🖼️ NextDither3D Project Tree
-
-nextdither3d/
-├── .gitignore                      <-- Excludes .next, node_modules, .env, etc.
-├── LICENSE                         <-- MIT license file
-├── README.md                       <-- Project documentation
-├── package.json                     <-- Dependencies & scripts
-├── tsconfig.json                    <-- TypeScript configuration
-├── public/
-│   └── textures/
-│       ├── ditherPattern.png       <-- Example dithering pattern texture
-├── src/
-│   ├── components/
-│   │   ├── DitherDemo.tsx          <-- 3D demo component for the landing page
-│   │   ├── FloatingShapes.tsx      <-- Extra visual effects (optional)
-│   ├── core/
-│   │   ├── shaders/
-│   │   │   ├── DitherMaterial.ts   <-- Shader for dithering effect
-│   │   ├── utils/
-│   │   │   ├── fadeUtils.ts        <-- Helper functions for fades
-│   │   └── DitherController.ts      <-- JavaScript control over dithering behavior
-│   ├── pages/
-│   │   ├── _app.tsx                <-- Global app wrapper
-│   │   ├── index.tsx               <-- Homepage with NextDither3D demo
-│   │   ├── three-demo/
-│   │   │   └── index.tsx           <-- Interactive 3D demo
-│   │   ├── api/
-│   │   │   └── settings.ts         <-- Example API route
-│   ├── styles/
-│   │   ├── globals.scss            <-- Global styles
-│   │   ├── DitherDemo.module.scss   <-- Component-specific styles
-│   └── tests/
-│       ├── DitherMaterial.test.ts  <-- Unit test for shader logic
-│       ├── DitherController.test.ts <-- Tests for fade logic
-└── next.config.js                   <-- Next.js custom config
-
+[
+](https://www.mermaidchart.com/raw/ce285e42-79dd-4455-8bdd-a21b381aac6b?theme=light&version=v0.1&format=svg)
 📝 Key Highlights
-	1.	📂 src/core/shaders/DitherMaterial.ts
-	•	The core GLSL shader logic for dithering, exposed as a Three.js material.
-	2.	📂 src/core/DitherController.ts
-	•	A JavaScript class to dynamically update fade/dithering properties based on camera distance.
-	3.	📂 src/pages/three-demo/index.tsx
-	•	Interactive demo page for showcasing NextDither3D in a web-based 3D scene.
-	4.	📂 src/components/DitherDemo.tsx
-	•	A reusable React component demonstrating how to use the shader in React Three Fiber.
-	5.	📂 tests/
-	•	Includes unit tests for shader parameters and dynamic fading behavior.
-	6.	📂 public/textures/
-	•	Contains an example dithering pattern texture (8×8 or 16×16).
-	7.	📄 next.config.js
-	•	Advanced Next.js configuration (if needed for custom WebGL setup).
+1. 📂 src/core/shaders/DitherMaterial.ts
+• The core GLSL shader logic for dithering, exposed as a Three.js material.
+2. 📂 src/core/DitherController.ts
+• A JavaScript class to dynamically update fade/dithering properties based on camera distance.
+3. 📂 src/pages/three-demo/index.tsx
+• Interactive demo page for showcasing NextDither3D in a web-based 3D scene.
+4. 📂 src/components/DitherDemo.tsx
+• A reusable React component demonstrating how to use the shader in React Three Fiber.
+5. 📂 tests/
+• Includes unit tests for shader parameters and dynamic fading behavior.
+6. 📂 public/textures/
+• Contains an example dithering pattern texture (8×8 or 16×16).
+7. 📄 next.config.js
+• Advanced Next.js configuration (if needed for custom WebGL setup).
 
 🚀 Installation Guide
 

@@ -1,0 +1,73 @@
+<details>
+<summary><em>src/components/ArtFeed/MasonryFeed.module.scss</em></summary>
+
+.masonryContainer {
+    padding: 2rem;
+    background: #111;
+  }
+  
+  /* react-masonry-css classes */
+  .myMasonryGrid {
+    display: flex;
+    margin-left: -1rem; /* space for gutter */
+    width: auto;
+  }
+  
+  .myMasonryGridColumn {
+    padding-left: 1rem; /* gutter size */
+    background-clip: padding-box;
+  }
+  
+  .masonryItem {
+    margin-bottom: 1rem;
+    position: relative;
+    overflow: hidden;
+  
+    .artImage {
+      width: 100%;
+      display: block;
+      border-radius: 6px;
+      transition: transform 0.3s ease;
+    }
+  
+    &:hover .artImage {
+      transform: scale(1.05);
+    }
+  
+    .hoverOverlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      text-align: center;
+      padding: 0.5rem;
+      transform: translateY(100%);
+      transition: transform 0.3s ease;
+    }
+  
+    &:hover .hoverOverlay {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Load more button container */
+  .loadMoreContainer {
+    text-align: center;
+    margin-top: 1rem;
+  
+    button {
+      background-color: #444;
+      color: #fff;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      cursor: pointer;
+      border-radius: 4px;
+  
+      &:hover {
+        background-color: #666;
+      }
+    }
+  }
+</details>

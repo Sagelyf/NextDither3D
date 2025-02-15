@@ -1,0 +1,20 @@
+<details>
+<summary>Example SCSS</summary>
+
+/* src/components/GraphViewer/GraphViewer.module.scss */
+.graphContainer {
+    background: #222;
+    padding: 2rem;
+    color: #fff;
+    overflow-x: auto;
+    border-radius: 6px;
+  
+    /* The .mermaid class is used by react-mermaid2 for styling */
+    .mermaid {
+      background: transparent;
+      color: #fff;
+    }
+  }
+
+</details>
+

@@ -1,6 +1,3 @@
-<details>
-<summary><em>src/pages/_app.tsx</em></summary>
-
 import type { AppProps } from 'next/app';
 import '../styles/globals.scss';
 
@@ -9,5 +6,3 @@ function MyApp({ Component, pageProps }: AppProps) {
 }
 
 export default MyApp;
-
-</details>

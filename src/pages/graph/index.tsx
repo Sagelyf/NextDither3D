@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import ART_DATA from '../../data/artData';
+import { ART_DATA } from '../../data/artData';
 import { GraphViewer } from '../../components/GraphViewer/GraphViewer';
 
 export default function GraphPage() {

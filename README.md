@@ -1,5 +1,5 @@
 
-![NextDither3D Diagram](public/images/diagram.png)
+![NextDither3D Diagram](diagram.png)
 
 📝 Key Highlights
 1. 📂 src/core/shaders/DitherMaterial.ts

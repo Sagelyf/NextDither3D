@@ -1,7 +1,5 @@
 
-npm install react-mermaid2
 
-<details>
 <summary><em>src/components/GraphViewer/GraphViewer.tsx</em></summary>
 
 import React, { useMemo } from 'react';

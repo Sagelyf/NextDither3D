@@ -1,9 +1,6 @@
-<details>
-<summary><em>src/pages/graph/index.tsx</em></summary>
-
 import React from 'react';
 import Head from 'next/head';
-import { ART_DATA } from '../../data/artData';
+import ART_DATA from '../../data/artData';
 import { GraphViewer } from '../../components/GraphViewer/GraphViewer';
 
 export default function GraphPage() {
@@ -17,7 +14,4 @@ export default function GraphPage() {
     </>
   );
 }
-
-</details>
-// Compare this snippet from src/pages/three-demo/index.tsx:
 

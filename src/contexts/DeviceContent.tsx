@@ -1,5 +1,11 @@
 import React, { createContext, useState, useContext } from 'react';
-import { Device } from '../types';
+
+// New file - add your device type here
+export interface Device {
+    id: string;
+    name: string;
+    // add other device properties if needed
+}
 
 interface DeviceContextProps {
     devices: Device[];

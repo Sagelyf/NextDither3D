@@ -1,9 +1,7 @@
-
-
 <summary><em>src/components/GraphViewer/GraphViewer.tsx</em></summary>
 
 import React, { useMemo } from 'react';
-import Mermaid from 'react-mermaid2';
+import Mermaid from 'mermaid-react';
 import styles from './GraphViewer.module.scss';
 import { ArtItem } from '../../data/artData';
 
@@ -36,9 +34,7 @@ export const GraphViewer: React.FC<GraphViewerProps> = ({ items }) => {
 
   return (
     <div className={styles.graphContainer}>
-      <Mermaid chart={graphDefinition} />
+      <Mermaid id="mermaid-graph" config={{ startOnLoad: true }} graphDefinition={graphDefinition} />
     </div>
   );
 };
-
-</details>

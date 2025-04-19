@@ -1,7 +1,7 @@
 <summary><em>src/components/GraphViewer/GraphViewer.tsx</em></summary>
 
 import React, { useMemo } from 'react';
-import Mermaid from 'mermaid-react';
+import Mermaid from 'react-mermaid';
 import styles from './GraphViewer.module.scss';
 import { ArtItem } from '../../data/artData';
 
@@ -38,3 +38,5 @@ export const GraphViewer: React.FC<GraphViewerProps> = ({ items }) => {
     </div>
   );
 };
+
+/* The type declaration for 'react-mermaid' is now in a separate file under 'src/types/react-mermaid.d.ts'. */

@@ -1,5 +1,3 @@
-<details>
-<summary><em>src/pages/graph/index.tsx</em></summary>
 
 import React from 'react';
 import Head from 'next/head';
@@ -18,6 +16,4 @@ export default function GraphPage() {
   );
 }
 
-</details>
-// Compare this snippet from src/pages/three-demo/index.tsx:
 

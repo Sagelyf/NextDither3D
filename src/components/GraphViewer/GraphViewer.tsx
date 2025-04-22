@@ -1,11 +1,4 @@
 
-npm install react-mermaid2
-
-<details>
-<summary><em>src/components/GraphViewer/GraphViewer.tsx</em></summary>
-
-import React, { useMemo } from 'react';
-import Mermaid from 'react-mermaid2';
 import styles from './GraphViewer.module.scss';
 import { ArtItem } from '../../data/artData';
 
@@ -38,9 +31,8 @@ export const GraphViewer: React.FC<GraphViewerProps> = ({ items }) => {
 
   return (
     <div className={styles.graphContainer}>
-      <Mermaid chart={graphDefinition} />
+
     </div>
   );
 };
 
-</details>

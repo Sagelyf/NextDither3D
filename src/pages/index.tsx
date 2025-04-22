@@ -1,5 +1,3 @@
-<details>
-<summary><em>src/pages/index.tsx</em></summary>
 
 import React from 'react';
 import Link from 'next/link';
@@ -17,4 +15,4 @@ export default function HomePage() {
     </div>
   );
 }
-</details>
+

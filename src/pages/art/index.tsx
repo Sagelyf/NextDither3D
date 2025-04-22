@@ -1,6 +1,3 @@
-<details>
-<summary><em>src/pages/art/index.tsx</em></summary>
-
 import React from 'react';
 import Head from 'next/head';
 import { MasonryFeed } from '../../components/ArtFeed/MasonryFeed';
@@ -27,7 +24,3 @@ export default function ArtPage() {
     </>
   );
 }
-
-</details>
-// Compare this snippet from src/pages/three-demo/index.tsx:
-

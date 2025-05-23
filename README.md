@@ -1,3 +1,7 @@
+---
+created: 2025-04-19T12:20
+updated: 2025-05-16T03:05
+---
 
 ![NextDither3D Diagram](diagram.png)
 
